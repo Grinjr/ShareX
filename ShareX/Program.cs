@@ -303,7 +303,7 @@ namespace ShareX
             SettingManager.LoadInitialSettings();
 
             Uploader.UpdateServicePointManager();
-            UpdateManager = new GitHubUpdateManager("ShareX", "ShareX", Dev, Portable);
+            UpdateManager = new GitHubUpdateManager("Grinjr", "ShareX", Dev, Portable);
 
             LanguageHelper.ChangeLanguage(Settings.Language);
 
